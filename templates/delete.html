@@ -1,0 +1,10 @@
+{% extends 'index.html' %}
+{% block content %}
+<form method="POST">
+    {% csrf_token %}
+    <center><p>
+        <h1 style="font-family:commanders;">ARE YOU SURE</h1></p>
+    <input type="submit" class="btn btn-danger"></center>
+
+</form>
+{% endblock %}
